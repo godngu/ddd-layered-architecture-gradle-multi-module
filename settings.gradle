@@ -1,0 +1,10 @@
+rootProject.name = 'multi-module'
+include 'member:member-domain'
+findProject(':member:member-domain')?.name = 'member-domain'
+include 'member:member-application'
+findProject(':member:member-application')?.name = 'member-application'
+include 'member:member-api'
+findProject(':member:member-api')?.name = 'member-api'
+include 'member:member-infrastructure'
+findProject(':member:member-infrastructure')?.name = 'member-infrastructure'
+

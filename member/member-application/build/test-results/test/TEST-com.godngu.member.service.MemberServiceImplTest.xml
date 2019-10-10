@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.godngu.member.service.MemberServiceImplTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-10-10T10:17:22" hostname="Kilui-MacBookPro.local" time="0.143">
+  <properties/>
+  <testcase name="signUp" classname="com.godngu.member.service.MemberServiceImplTest" time="0.143"/>
+  <system-out><![CDATA[19:17:19.418 [Test worker] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.godngu.member.service.MemberServiceImplTest]
+19:17:19.424 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+19:17:19.430 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+19:17:19.448 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.godngu.member.service.MemberServiceImplTest] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+19:17:19.455 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.godngu.member.service.MemberServiceImplTest], using SpringBootContextLoader
+19:17:19.457 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.godngu.member.service.MemberServiceImplTest]: class path resource [com/godngu/member/service/MemberServiceImplTest-context.xml] does not exist
+19:17:19.457 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.godngu.member.service.MemberServiceImplTest]: class path resource [com/godngu/member/service/MemberServiceImplTestContext.groovy] does not exist
+19:17:19.457 [Test worker] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.godngu.member.service.MemberServiceImplTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+19:17:19.483 [Test worker] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.godngu.member.service.MemberServiceImplTest]
+19:17:19.562 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.godngu.member.service.MemberServiceImplTest]: using defaults.
+19:17:19.563 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+19:17:19.567 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [javax/servlet/ServletContext]
+19:17:19.572 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4c67524, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@57a51357, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@5dea36a2, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3ea4a6d6, org.springframework.test.context.transaction.TransactionalTestExecutionListener@97c9b73, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@763c1ea0, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@7a6f79e3, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@61e6e26e, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@c2c5a22, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@1af39c19, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@1bd24ec5]
+19:17:19.574 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.godngu.member.service.MemberServiceImplTest]
+19:17:19.574 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.godngu.member.service.MemberServiceImplTest]
+19:17:19.574 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.godngu.member.service.MemberServiceImplTest]
+19:17:19.575 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.godngu.member.service.MemberServiceImplTest]
+19:17:19.577 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@40cf5e19 testClass = MemberServiceImplTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@7dea3ff2 testClass = MemberServiceImplTest, locations = '{}', classes = '{class com.godngu.member.MemberServiceApplicationTest, class com.godngu.member.MemberServiceApplicationTest}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@3b83b40e, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@5ddbe1df, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@19cca3dc, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@50932392], contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map[[empty]]], class annotated with @DirtiesContext [false] with mode [null].
+19:17:19.578 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.godngu.member.service.MemberServiceImplTest]
+19:17:19.578 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.godngu.member.service.MemberServiceImplTest]
+19:17:19.580 [Test worker] DEBUG org.springframework.test.context.support.DependencyInjectionTestExecutionListener - Performing dependency injection for test context [[DefaultTestContext@40cf5e19 testClass = MemberServiceImplTest, testInstance = com.godngu.member.service.MemberServiceImplTest@3b717f47, testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@7dea3ff2 testClass = MemberServiceImplTest, locations = '{}', classes = '{class com.godngu.member.MemberServiceApplicationTest, class com.godngu.member.MemberServiceApplicationTest}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@3b83b40e, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@5ddbe1df, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@19cca3dc, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@50932392], contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map[[empty]]]].
+19:17:19.596 [Test worker] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=-1}
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.1.5.RELEASE)
+
+2019-10-10 19:17:19.813  INFO 4877 --- [    Test worker] c.g.m.service.MemberServiceImplTest      : Starting MemberServiceImplTest on Kilui-MacBookPro.local with PID 4877 (started by kil in /Users/kil/dev/workspace/study/ddd/multi-module/member/member-application)
+2019-10-10 19:17:19.814  INFO 4877 --- [    Test worker] c.g.m.service.MemberServiceImplTest      : No active profile set, falling back to default profiles: default
+2019-10-10 19:17:20.083  INFO 4877 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-10 19:17:20.143  INFO 4877 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 53ms. Found 1 repository interfaces.
+2019-10-10 19:17:20.551  INFO 4877 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-10-10 19:17:20.703  INFO 4877 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-10-10 19:17:20.781  INFO 4877 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-10-10 19:17:20.836  INFO 4877 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2019-10-10 19:17:20.839  INFO 4877 --- [    Test worker] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-10-10 19:17:20.968  INFO 4877 --- [    Test worker] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-10-10 19:17:21.086  INFO 4877 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+Hibernate: 
+    
+    drop table member if exists
+Hibernate: 
+    
+    drop sequence if exists hibernate_sequence
+Hibernate: create sequence hibernate_sequence start with 1 increment by 1
+Hibernate: 
+    
+    create table member (
+       member_no bigint not null,
+        email varchar(255),
+        name varchar(255),
+        primary key (member_no)
+    )
+2019-10-10 19:17:21.587  INFO 4877 --- [    Test worker] o.h.t.schema.internal.SchemaCreatorImpl  : HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@289e4b2e'
+2019-10-10 19:17:21.589  INFO 4877 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-10 19:17:22.014  INFO 4877 --- [    Test worker] c.g.m.service.MemberServiceImplTest      : Started MemberServiceImplTest in 2.416 seconds (JVM running for 3.011)
+Hibernate: 
+    call next value for hibernate_sequence
+Hibernate: 
+    /* insert com.godngu.member.domain.Member
+        */ insert 
+        into
+            member
+            (email, name, member_no) 
+        values
+            (?, ?, ?)
+2019-10-10 19:17:22.104 TRACE 4877 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [test@email.com]
+2019-10-10 19:17:22.104 TRACE 4877 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [VARCHAR] - [kiljun]
+2019-10-10 19:17:22.104 TRACE 4877 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [3] as [BIGINT] - [1]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

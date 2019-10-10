@@ -1,0 +1,8 @@
+bootJar.enabled = false
+jar.enabled = true
+
+dependencies {
+    implementation project(':member:member-domain')
+    implementation project(':member:member-infrastructure')
+    implementation 'org.springframework.boot:spring-boot-starter'
+}
