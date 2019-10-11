@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6b7cc828-bad4-435b-a7c0-2828b9a959a3" name="Default Changelist" comment="" />
+    <list default="true" id="6b7cc828-bad4-435b-a7c0-2828b9a959a3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -86,15 +89,8 @@
       <split-first>
         <leaf>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/member/member-api/README.md">
-              <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-                <state split_layout="SPLIT">
-                  <first_editor relative-caret-position="45">
-                    <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
-                  </first_editor>
-                  <second_editor />
-                </state>
-              </provider>
+            <entry file="file://$PROJECT_DIR$/.gitignore">
+              <provider selected="true" editor-type-id="text-editor" />
             </entry>
           </file>
         </leaf>
@@ -134,10 +130,12 @@
       <find>select</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/member/member-api/src/main/java/com/godngu/member/api/dto/MemberResponseDTO.java" />
         <option value="$PROJECT_DIR$/member/member-api/src/main/java/com/godngu/member/MemberApplication.java" />
         <option value="$PROJECT_DIR$/member/member-api/src/test/java/com/godngu/member/api/SpringBootApiTest.java" />
         <option value="$PROJECT_DIR$/member/member-domain/src/test/java/com/godngu/member/MemberDomainApplicationTest.java" />
@@ -188,20 +186,23 @@
         <option value="$PROJECT_DIR$/member/member-domain/README.md" />
         <option value="$PROJECT_DIR$/member/member-application/README.md" />
         <option value="$PROJECT_DIR$/member/member-api/README.md" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1491" />
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1492" />
+    <option name="width" value="2983" />
     <option name="height" value="1669" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -213,12 +214,6 @@
               <item name="multi-module" type="b2602c69:ProjectViewProjectNode" />
               <item name="multi-module" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="member" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="multi-module" type="b2602c69:ProjectViewProjectNode" />
-              <item name="multi-module" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="member" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="member-api" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="multi-module" type="b2602c69:ProjectViewProjectNode" />
@@ -249,8 +244,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -306,37 +299,44 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MemberServiceImplTest.signUp">
-    <configuration name="MemberCustomRepositoryImplTest.bringMemberByMemberNo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="com.godngu.member-infrastructure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.godngu.member.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.godngu.member.infra.hibernate" />
-      <option name="MAIN_CLASS_NAME" value="com.godngu.member.infra.hibernate.MemberCustomRepositoryImplTest" />
-      <option name="METHOD_NAME" value="bringMemberByMemberNo" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+  <component name="RunManager" selected="Gradle.multi-module:member [clean]">
+    <configuration name="multi-module:member [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/member" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
     </configuration>
-    <configuration name="MemberJpaRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="com.godngu.member-infrastructure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.godngu.member.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.godngu.member.infra" />
-      <option name="MAIN_CLASS_NAME" value="com.godngu.member.infra.MemberJpaRepositoryTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="multi-module:member:member-api [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/member/member-api" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
     </configuration>
     <configuration name="MemberJpaRepositoryTest.bringMemberByMemberNo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.godngu.member-infrastructure" />
@@ -395,11 +395,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.multi-module:member [clean]" />
+        <item itemvalue="Gradle.multi-module:member:member-api [clean]" />
         <item itemvalue="JUnit.MemberServiceImplTest.signUp" />
         <item itemvalue="JUnit.MemberRestControllerTest.signUp" />
         <item itemvalue="JUnit.MemberJpaRepositoryTest.bringMemberByMemberNo" />
-        <item itemvalue="JUnit.MemberCustomRepositoryImplTest.bringMemberByMemberNo" />
-        <item itemvalue="JUnit.MemberJpaRepositoryTest" />
       </list>
     </recent_temporary>
   </component>
@@ -419,7 +419,8 @@
       <workItem from="1570150650474" duration="2921000" />
       <workItem from="1570497839855" duration="598000" />
       <workItem from="1570511923873" duration="589000" />
-      <workItem from="1570669336882" duration="21560000" />
+      <workItem from="1570669336882" duration="22625000" />
+      <workItem from="1570760039572" duration="713000" />
     </task>
     <servers />
   </component>
@@ -456,13 +457,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50188000" />
+    <option name="totallyTimeSpent" value="51966000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="2983" height="1669" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14042842" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14110847" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -506,16 +507,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/member/member-api/src/main/java/com/godngu/member/api/dto/MemberDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/member/member-api/src/main/java/com/godngu/member/api/dto/MemberDTO.java" />
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/5.1.7.RELEASE/8b60bd1d7e7b8cf820aab75f4bc6bf914fbbac1b/spring-web-5.1.7.RELEASE-sources.jar!/org/springframework/web/bind/annotation/GetMapping.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="313">
@@ -530,13 +522,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/member/member-domain/src/test/java/com/godngu/member/MemberDomainApplicationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/member/member-api/src/main/java/com/godngu/member/api/service.java" />
     <entry file="file://$PROJECT_DIR$/member/member-api/src/main/java/com/godngu/member/api/service/MemberApplicationService.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -545,37 +530,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/member/member-infrastructure/src/main/java/com/godngu/member/infra/MemberCustomRepositoryImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/member/member-infrastructure/src/test/java/com/godngu/member/infra/MemberCustomRepositoryImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/member/member-infrastructure/src/main/java/com/godngu/member/infra/MemberRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/member/member-infrastructure/src/main/java/com/godngu/member/infra/MemberCustomRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/member/member-infrastructure/src/main/java/com/godngu/member/infra/MemberCustomRepositoryImpl.java" />
+    <entry file="file://$PROJECT_DIR$/member/member-infrastructure/src/test/java/com/godngu/member/infra/MemberCustomRepositoryImplTest.java" />
+    <entry file="file://$PROJECT_DIR$/member/member-infrastructure/src/main/java/com/godngu/member/infra/MemberRepository.java" />
+    <entry file="file://$PROJECT_DIR$/member/member-infrastructure/src/main/java/com/godngu/member/infra/MemberCustomRepository.java" />
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.persistence/javax.persistence-api/2.2/462dff65f6f8bde02ee9d8afe07fe9d50268199c/javax.persistence-api-2.2-sources.jar!/javax/persistence/Entity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -583,16 +541,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/member/member-domain/src/test/java/com/godngu/member/domain/MemberRepositoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="46" lean-forward="true" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/member/member-domain/src/test/java/com/godngu/member/domain/MemberRepositoryTest.java" />
     <entry file="file://$PROJECT_DIR$/member/member-infrastructure/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -650,23 +599,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/member/member-infrastructure/src/test/java/com/godngu/member/infra/hibernate/MemberInfrastructureApplicationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/member/member-infrastructure/src/test/java/com/godngu/member/infra/hibernate/MemberCustomRepositoryImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="15" lean-forward="true" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/member/member-infrastructure/src/test/java/com/godngu/member/infra/hibernate/MemberInfrastructureApplicationTest.java" />
+    <entry file="file://$PROJECT_DIR$/member/member-infrastructure/src/test/java/com/godngu/member/infra/hibernate/MemberCustomRepositoryImplTest.java" />
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-test/5.1.7.RELEASE/460a45ef103dc40e60240c5112df2ffa8ecbf94f/spring-test-5.1.7.RELEASE-sources.jar!/org/springframework/test/context/ContextConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="222">
@@ -858,16 +792,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="720">
-            <caret line="48" column="25" lean-forward="true" selection-start-line="48" selection-start-column="25" selection-end-line="48" selection-end-column="25" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/member/member-application/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -908,12 +832,25 @@
     <entry file="file://$PROJECT_DIR$/member/member-api/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="45">
-            <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+          <first_editor relative-caret-position="75">
+            <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="720">
+            <caret line="48" column="25" lean-forward="true" selection-start-line="48" selection-start-column="25" selection-end-line="48" selection-end-column="25" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
